@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Medicos</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Fahkwang" rel="stylesheet">
+	<link  rel="shortcurt icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="icon" type="image/png" href="logo.jpeg">
+
+</head>
+<body id="login3"> 
+
+
+	<br>
+	<br>
+<a href="logout.php"><img width="3%" height="5%" id="usua" src="usua.png"></a>
+	<form action="RegistroM.php" method="POST">
+				
+			<h1>Registro de Medicos<br><br><img class="imagen" width="40%" height="40%" src="logo.jpeg"></h1>
+			<label>Nombre:</label>
+			<input type="text" name="Nombre" placeholder="Nombre" required="required">
+			<label>Apellido Paterno:</label>
+			<input type="text" placeholder="Apellido" name="ApellidoP" required="required">
+			<label>Apellido Materno:</label>
+			<input type="text" placeholder="Apellido" name="ApellidoM" required="required">
+			<label>CURP:</label>
+			<input type="text" placeholder="CURP" name="Curp" required="required">
+			<label>NSS:</label>
+			<input type="text" placeholder="NSS" name="NSS" required="required">
+			<label>Sexo:</label>
+			<div class="select"><select name="Sexo">
+			  <option value="Mujer">Mujer</option>
+			  <option value="Hombre" selected>Hombre</option>
+			</select></div><br><br>
+			<label>Fecha de nacimiento:</label>
+			<input type="date" placeholder="Fecha de Nacimiento" name="FechaNac" required="required">
+			<label>Fecha de Ingreso:</label>
+			<input type="date" placeholder="Fecha de Ingreso" name="FechaIngr" required="required">
+			<label>Especialidad:</label>
+			<div class="select"><select name="Especialidad">
+			  <option value="Anestesiología">Anestesiología</option>
+			  <option value="Anatomía Patológica">Anatomía Patológica</option>
+			  <option value="Angiología y Cirugía Vascular">Angiología y Cirugía Vascular</option>
+			  <option value="Cardiología" selected>Cardiología</option>
+			  <option value="Cardiología Intervencionista">Cardiología Intervencionista</option>
+			  <option value="Cirugía Pediátrica">Cirugía Pediátrica</option>
+			  <option value="Cirugía General">Cirugía General</option>
+			  <option value="Cardiología Intervencionista">Cardiología Intervencionista</option>
+			  <option value="Cirugía Oncológica">Cirugía Oncológica</option>
+			  <option value="Cirugía Plástica y Reconstructiva">Cirugía Plástica y Reconstructiva</option>
+			  <option value="Dentista">Dentista</option>
+			  <option value="Dermatología">Dermatología</option>
+			  <option value="Endoscopia">Endoscopia</option>
+			  <option value="Gastroenterología">Gastroenterología</option>
+			  <option value="Ginegología y Obstetricia">Ginegología y Obstetricia</option>
+			  <option value="Hematología">Hematología</option>
+			  <option value="Infectología">Infectología</option>
+			  <option value="Medicina Aeroespacial">Medicina Aeroespacial</option>
+			  <option value="Medicina de Rehabilitación">Medicina de Rehabilitación</option>
+			  <option value="Medicina Interna">Medicina Interna</option>
+			  <option value="Medicina del Enfermo en Estado Crítico">Medicina del Enfermo en Estado Crítico</option>
+			  <option value="Nefrología">Nefrología</option>
+			  <option value="Neurología">Neurología</option>
+			  <option value="Neumología">Neumología</option>
+			  <option value="Nutriología">Nutriología</option>
+			  <option value="Oftalmología">Oftalmología</option>
+			  <option value="Oncología Médica">Oncología Médica</option>
+			  <option value="Oncología Pediátrica">Oncología Pediátrica</option>
+			  <option value="Ortopedia">Ortopedia</option>
+			  <option value="Otorrinolaringología">Otorrinolaringología</option>
+			  <option value="Patología Clínica">Patología Clínica</option>
+			  <option value="Pediatría">Pediatría</option>
+			  <option value="Psiquiatría General">Psiquiatría General</option>
+			  <option value="Radiología e Imagen">Radiología e Imagen</option>
+			  <option value="Radio-Oncología">Radio-Oncología</option>
+			  <option value="Urología">Urología</option>
+			</select></div><br><br>
+			<label>Domicilio:</label>
+			<input type="text" placeholder="Domicilio" name="Domicilio" required="required">
+			<input type="submit" value="Crear Usuario" name="" id="boton">
+
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,525 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: cinzel;
+	box-sizing: border-box;
+}
+
+body 
+{
+	min-height: 100vh;
+	background-image: url(fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+input:focus {
+	background-color:gray;
+}
+input:invalid {
+	color:red;
+}
+
+.imagen:hover{
+	border-radius:40%;
+	-webkit-border-radius:30%;
+	box-shadow: 0px 0px 15px 15px #BC8F8F;
+	-webkit-box-shadow: 0px 0px 15px 15px #BC8F8F;
+}
+.select {
+  position: relative;
+  border: 1px solid #FF7F50;
+  width: 120px;
+  overflow: hidden;
+  background-color: #A0522D;
+}
+  
+.select:before {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #F08080 transparent transparent transparent;
+    z-index: 5;
+    pointer-events: none;
+}
+  
+.select select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
+#login1 
+{
+	min-height: 100vh;
+	background-image: url(fondo1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+#usu{
+    position: fixed;
+    top: 8%;
+    margin-left: 50%;
+}
+#usua{
+    position: fixed;
+    top: 10%;
+    margin-left: 70%;
+}
+#login2 
+{
+	min-height: 100vh;
+	background-image: url(fondo2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+#login3 
+{
+	min-height: 100vh;
+	background-image: url(fondo3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+#login4 
+{
+	min-height: 100vh;
+	background-image: url(fondo4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+#login5 
+{
+	min-height: 100vh;
+	background-image: url(fondo5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+form.consulta{
+	margin: auto;
+	width: 100%;
+	max-width: 500px;
+	background:  rgba(245, 203, 167, 0.5); 
+	padding: 20px; 
+	border: 2px solid rgba(245, 203, 167,1);
+	border-radius: 30px;
+}
+
+/*------------------------------------------------Formulario------------------------------------------------*/
+form
+{
+	margin: auto;
+	width: 70%;
+	max-width: 500px;
+	background:  rgba(245, 203, 167, 0.5); 
+	padding: 20px; 
+	border: 2px solid rgba(245, 203, 167,1);
+	border-radius: 30px;
+}
+h1 
+{
+	text-align: center;
+	margin-bottom: 25px; 
+	color: rgba(300,300,300,1);
+	font-family: Lobster, cursivo;}
+
+input 
+{
+	background-color: rgba(197,223,220,0.5);
+	display: block;
+	padding: 10px; 
+	width: 100%; 
+	margin: 30px 0;
+	font-size: 16px; 
+	color: black;
+	border: 1px solid rgb(197,223,220);
+	border-radius: 10px;
+}
+
+label
+{
+	font-size: 18px;
+	color: rgb(120, 40, 31);
+	text-decoration: none;
+}
+
+#boton
+{
+		background-color: rgba(197,223,220,0.5);
+		border: 1px solid #c5dfdc;
+		color: black;
+		opacity: 0.8; 
+		cursor: pointer;
+		border-radius: 20px; 
+		margin-bottom: 0;
+		border-radius: 10px;
+}
+
+#boton:hover
+{
+	opacity: 1;
+}
+
+#boton:active
+{
+	transform: scale(0.95);
+}
+button{
+width: 30%;
+	height: 10%;
+	font-family: 'Fahkwang', sans-serif;
+	background:#e08e79;
+	padding:0%;
+	margin-left:36%;
+	margin-right:0%;
+	border:solid 4px #e08e79;
+	outline:solid 2px #784e38;
+	font-size: 100%;
+	color:white;
+	border-radius: 15px;
+}
+label a 
+{
+	text-decoration: none;
+	text-align: center;
+}
+label a:active 
+{
+	color: red;
+}
+label a:visited
+{
+	color:white;
+}
+nav
+{
+	margin: auto;
+	width: 50%;
+	height: 80%;
+	text-align: center;
+	color: white;
+	background:  rgba(120, 40, 31, 0.5); 
+	border: 2px solid rgba(120, 40, 31,1);
+	border-radius: 10px;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Great Vibes', cursive;
+}
+#login
+{
+	margin: auto;
+	width: 20%;
+	height: 3%;
+	max-width: 500px;
+	text-align: center;
+	color: white;
+	background:  rgba(120,78,56, 0.5); 
+	border: 2px solid rgba(120,78,56,1);
+	border-radius: 10px;
+}
+#loginB h1{
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+}
+#loginB
+{
+	margin: auto;
+	width: 30%;
+	height: 40%;
+	max-width: 500px;
+	text-align: center;
+	color: white;
+	background:  rgba(120,78,56, 0.5); 
+	border: 2px solid rgba(120,78,56,1);
+	border-radius: 10px;
+}
+#white{color: white;
+		text-decoration:none;}
+/*------------------------------------------------Responsive de toda la Página------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------Responsive Mediano------------------------------------------------*/
+@media (max-width: 768px)
+{
+	form
+{
+	margin: auto;
+	width: 70%;
+	max-width: 800px;
+	background:  rgba(224,142,121, 0.5); 
+	padding: 20px; 
+	border: 1px solid rgba(224,142,121,1);
+}
+h2 
+{
+	text-align: center;
+	margin-bottom: 25px; 
+	color: rgba(300,300,300,1);
+}
+
+input 
+{
+	background-color: rgba(197,223,220, 0.2);
+	display: block;
+	padding: 10px; 
+	width: 100%; 
+	margin: 30px 0;
+	font-size: 16px; 
+	color: white;
+	border: 1px solid black;
+}
+
+label
+{
+	font-size: 18px;
+	color: white;
+}
+
+#boton
+{
+		background-color:#004dff;
+		border: 1px solid #000;
+		color: #000;
+		opacity: 0.8; 
+		cursor: pointer;
+		border-radius: 20px; 
+		margin-bottom: 0;
+}
+
+#boton:hover
+{
+	opacity: 1;
+}
+
+#boton:active
+{
+	transform: scale(0.95);
+}
+/*------------------------------------------------Efecto del NAV------------------------------------------------*/
+ul
+{
+	margin: 1% 10%;
+	padding: 0;
+	display:flex;
+}
+ 			
+ul li
+{
+	list-style: none;
+	padding: 10px 10px; 
+}
+
+ul li a
+{
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 1.5em; 
+	color: #bff;
+	position: relative;
+	padding: 1px; 
+}
+
+ul li a:hover
+{
+	color: #00aae4;
+}
+
+/*------------------------------------------------Responsive Chico------------------------------------------------*/
+@media (max-width: 480px)
+{
+	form
+{
+	margin: auto;
+	width: 90%;
+	max-width: 500px;
+	background:  rgba(224,142,121, 0.3); 
+	padding: 20px; 
+	border: 2px solid rgba(224,142,121,1);
+}
+h2 
+{
+	text-align: center;
+	margin-bottom: 25px; 
+	color: rgba(300,300,300,1);
+}
+
+input 
+{
+	background-color: rgba(197,223,220, 0.2);
+	display: block;
+	padding: 10px; 
+	width: 100%; 
+	margin: 30px 0;
+	font-size: 16px; 
+	color: white;
+	border: 1px solid black;
+}
+
+label
+{
+	font-size: 18px;
+	color: white;
+}
+
+#boton
+{
+		background-color:#004dff;
+		border: 1px solid #000;
+		color: #000;
+		opacity: 0.8; 
+		cursor: pointer;
+		border-radius: 20px; 
+		margin-bottom: 0;
+}
+
+#boton:hover
+{
+	opacity: 1;
+}
+
+#boton:active
+{
+	transform: scale(0.95);
+}
+/*------------------------------------------------Efecto del NAV------------------------------------------------*/
+
+ul
+{
+	margin: 1% 3%;
+	padding: 0;
+	display:flex;
+}
+ 			
+ul li
+{
+	list-style: none;
+	padding: 10px 10px; 
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com(css?family=Poppins:100,200,300,400,500,600,700,800,900');
+.container{
+	position: relative;
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	grid-template-rows: auto;
+	grid-gap: 0 40px;
+}
+.container .box{
+	position: relative;
+	height: 400px;
+	background: #060c21;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+}
+.container .box:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	transform: skew(2deg,2d);
+	z-index: -1;
+}
+.container .boz:nth-child(1):before{
+	background: linear-gradient(315deg, #ff0057, #e64a19);
+}
+.container .box:nth-child(2):before{
+	background: linear-gradient(315deg, #89ff00, #00bcd4);
+}
+.container .box:nth-child(3):before{
+	background: linear-gradient(315deg, #e91e63, #5d02ff);
+}
+.container .box:nth-child(4):before{
+	background: linear-gradient(315deg, #ff0000, #ffc107);
+}
+.container .box:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.05);
+	pointer-events: none;
+}
+.content{
+	position: relative;
+	padding: 20px;
+}
+.box .content h2{
+	position: absolute;
+	top: -60px;
+	right: 20px;
+	margin: 0;
+	padding: 0;
+	font-size: 10em;
+	color: rgb(255, 255, 255, 0.05);
+	transition: 0.5s;
+}
+.box:hover .content h2{
+	top: -140px;
+}
+.box .content h3{
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 24px;
+	font-weight: 500;
+	color: #FFF;
+}
+.box .content p{
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-size: 16px;
+}
+.box .content a{
+	position: relative;
+	margin: 20px 0 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	display: inline-block;
+	color: #FFF;
+	transition: 0.5s;
+	transform: translateY(-40px);
+	opacity: 0;
+	visibility: hidden;
+}
+.box:hover .content a{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
+.box .content a:hover{
+	color: #000;
+	background: #fFf;
+}

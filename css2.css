@@ -1,0 +1,239 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: cinzel;
+	box-sizing: border-box;
+}
+
+body 
+{
+	min-height: 100vh;
+	background-image: url(fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+input:focus {
+	background-color:gray;
+}
+input:invalid {
+	color:red;
+}
+.imagen:hover{
+	border-radius:40%;
+	-webkit-border-radius:30%;
+	box-shadow: 0px 0px 15px 15px #BC8F8F;
+	-webkit-box-shadow: 0px 0px 15px 15px #BC8F8F;
+}
+.select {
+  position: relative;
+  border: 1px solid #FF7F50;
+  width: 120px;
+  overflow: hidden;
+  background-color: #A0522D;
+}
+  
+.select:before {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #F08080 transparent transparent transparent;
+    z-index: 5;
+    pointer-events: none;
+}
+  
+.select select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
+#login1 
+{
+	min-height: 100vh;
+	background-image: url(fondo1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+#usu{
+    position: fixed;
+    top: 10%;
+    margin-left: 80%;
+}
+
+#login4 
+{
+	min-height: 100vh;
+	background-image: url(fondo4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+table.tabla_datos{
+	border-collapse: separate;
+	border-color: #D8BFD8;
+	background-color: #BC8F8F;
+}
+form.bo{
+	display: hidden;
+}
+input.bo{
+	display: hidden;
+}
+/*------------------------------------------------Formulario------------------------------------------------*/
+form.consulta
+{
+	margin: auto;
+	width: 80%;
+	background:  rgba(245, 203, 167, 0.5); 
+	padding: 20px; 
+	border: 2px solid rgba(245, 203, 167,1);
+	border-radius: 30px;
+}
+h1 
+{
+	text-align: center;
+	margin-bottom: 35px; 
+	color: rgba(300,300,300,1);
+	font-family: Lobster, cursivo;}
+
+input 
+{
+	background-color: rgba(197,223,220,0.5);
+	display: block;
+	padding: 10px; 
+	width: 100%; 
+	margin: 30px 0;
+	font-size: 16px; 
+	color: black;
+	border: 1px solid rgb(197,223,220);
+	border-radius: 10px;
+}
+
+label
+{
+	font-size: 18px;
+	color: rgb(120, 40, 31);
+	text-decoration: none;
+}
+
+label a 
+{
+	text-decoration: none;
+	text-align: center;
+}
+label a:active 
+{
+	color: red;
+}
+label a:visited
+{
+	color:white;
+}
+nav
+{
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	max-width: 500px;
+	text-align: center;
+	color: white;
+	background:  rgba(120, 40, 31, 0.5); 
+	border: 2px solid rgba(120, 40, 31,1);
+	border-radius: 10px;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Great Vibes', cursive;
+}
+#login
+{
+	margin: auto;
+	width: 20%;
+	height: 3%;
+	max-width: 500px;
+	text-align: center;
+	color: white;
+	background:  rgba(120,78,56, 0.5); 
+	border: 2px solid rgba(120,78,56,1);
+	border-radius: 10px;
+}
+#loginB h1{
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+}
+#loginB
+{
+	margin: auto;
+	width: 30%;
+	height: 40%;
+	max-width: 500px;
+	text-align: center;
+	color: white;
+	background:  rgba(120,78,56, 0.5); 
+	border: 2px solid rgba(120,78,56,1);
+	border-radius: 10px;
+}
+#white{color: white;
+		text-decoration:none;}
+/*------------------------------------------------Responsive de toda la Página------------------------------------------------*/
+/*------------------------------------------------Efecto del NAV------------------------------------------------*/
+ul
+{
+	margin: 1% 10%;
+	padding: 0;
+	display:flex;
+}
+ 			
+ul li
+{
+	list-style: none;
+	padding: 10px 10px; 
+}
+
+ul li a
+{
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 1.5em; 
+	color: #bff;
+	position: relative;
+	padding: 1px; 
+}
+
+ul li a:hover
+{
+	color: #00aae4;
+}
+
+/*------------------------------------------------Responsive Chico------------------------------------------------*/
+
+/*------------------------------------------------Efecto del NAV------------------------------------------------*/
+
+ul
+{
+	margin: 1% 3%;
+	padding: 0;
+	display:flex;
+}
+ 			
+ul li
+{
+	list-style: none;
+	padding: 10px 10px; 
+}
